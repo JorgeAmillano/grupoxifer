@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Grupo Xifer</title>
+    <link rel="shortcut icon"  href="imgs/favicon.ico" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/validacion.js"></script>
+
+</head>
+<body >
+
+ <div class="navbar navbar-inverse navbar-fixed-top sombra animated fadeIn" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Desplega menú</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="imgs/xf1.png" /></a>
+          
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html"><span style="color:#01a8ec">Inicio</span></a></li>       
+            <li><a href="empresa.html"><span style="color:#01a8ec">Empresa</span></a></li>
+            <li class="dropdown">
+              <a href="productos.html" class="dropdown-toggle" data-toggle="dropdown"><span style="color:#01a8ec">Productos <b class="caret"></b></span></a>
+              <ul class="dropdown-menu">
+              <!--li class="dropdown-header">Admin & Dashboard</li-->
+                <li><a href="productos.html"><b><u>Todos los productos</u></b></a></li>
+                <li><a href="pro/index1.html">Mezcladoras Lavabo</a></li>
+                <li><a href="pro/index2.html">Mezcladoras Fregador</a></li>
+                <li><a href="pro/index3.html">Llaves Jardín</a></li>
+                <li><a href="pro/index4.html">Monomandos</a></li>
+                <li><a href="pro/index5.html">Regaderas</a></li>
+                <li><a href="pro/index6.html">Tarjas</a></li>
+                <!--li><a href="pro/index7.html">Plásticos</a></li-->
+                <li><a href="pro/index8.html">CPVC</a></li>
+                <li><a href="pro/index9.html">Accesorios</a></li>                        
+                <li><a href="pro/index10.html">Válvulas</a></li>
+                <li><a href="pro/index11.html">Mangueras</a></li>
+                <li><a href="pro/index12.html">¡REMATE!</a></li>
+                
+                <!--li class="divider"></li-->
+               
+              </ul>
+            </li>
+            <li><a href="catalogoxifer.pdf"  target="_blank"><span style="color:#01a8ec">Catálogo</span></a></li>            
+            <li><a href="contacto.html"><span style="color:#01a8ec">Contacto</span></a></li>
+            <li><a href="en/contact.html"><span style="color:#01a8ec">English</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    
+      
+      
+      
+      
+      <section>
+        <div class="text-center espacioarribamapa animated fadeInUp">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.0904672605893!2d-103.32552600000005!3d20.625169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b2599534d919%3A0x6d733ce7dce16f00!2sGrupo+Xifer!5e0!3m2!1ses-419!2smx!4v1421253443744" width="100%" height="310" frameborder="0" style="border:0"></iframe>
+        <article class="sombra fondoblanco">          
+        
+        <p class="mediano"><img src="imgs/email2.png" />Lázaro Cárdenas 2815, Parque industrial el Alamo, Guadalajara, Jalisco.</p>
+        <p class="mediano"><img src="imgs/phone2.png" />Tel. 01 (33) 3666 1885, 3666 1886</p>
+        <p class="grande">Lada sin costo. 01 800 901 1000</p>      
+        <p class="text-center sombra"></p>
+       
+       </article>
+        </div>
+      </section>
+     
+
+     
+      <div class=" col-md-5  center-block quitar-float animated fadeInUp espacio-formulario retrasoanimacion1">
+
+      <article>
+        <p class="grande text-center">¡Escríbenos!</p>
+      
+      	<form name="form" method="post" action="contacto.php">
+
+               <!--form action="contactoo.php" method="post" id="contactForm" name="contactForm"-->
+          <fieldset>
+
+                  <div>
+               <label for="contactName">Nombre: <span class="required">*</span></label><span id="validar-nombre"></span>
+               <input type="text" value="" size="25" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+                  <br/>
+               <label for="contactEmail">E-mail: <span class="required">*</span></label><span style="color:#FF0000;"id="validar-correo"></span>
+               <input type="text" value="" size="25" id="contactEmail" name="contactEmail">
+                  </div>
+                  
+                  <div>
+                  <br/>
+               <label for="contactPhone">Teléfono: <span class="required">*</span></label><span id="validar-tele"></span>
+               <input type="text" value="" size="25" id="contactPhone" name="contactPhone">
+                  </div>
+
+                  <div>
+                  <br/>
+               <label for="contactSubject">Asunto: <span class="required">*</span></label><span id="validar-asunto"></span>
+               <input type="text" value="" size="25" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                  <br/>
+                     <label for="contactMessage">Mensaje: <span class="required">*</span></label><span id="validar-mensaje"></span>
+                     <textarea cols="40" rows="10" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <p id="envio"><button type="submit" class="btn btn-primary" name="enviar" id="enviar">Enviar</button></p>
+                     
+                  </div>
+
+          </fieldset>
+           </form> <!-- Form End -->
+      </article>
+     
+      </div>
+      
+    
+
+   
+      <br />
+      <br />
+      <br />
+      <br/>
+      <br/>
+     
+<footer class="col-xs-4 center-block texte-center quitar-float pie">
+<!--div class="pie"-->
+<b>Grupo Xifer S.A. de C.V. 2015 todos los derechos reservados. |<a href="aviso.html"> Aviso de Privacidad. </a> |<a href="mailto:info@grupoxifer.com.mx"> Contáctanos</a>  </b></b> 
+<!--/div-->
+</footer>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+     
+       
+        <script src="js/jquery.backstretch.min.js"></script>
+        <script>
+            jQuery.backstretch([
+                  "backimgs/backcontact2.jpg"
+              
+	
+                ], {duration: 8000, fade: 2000}
+            );
+            
+        </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'Lato', sans-serif;
+
+
+}
+.blue{
+background-image:url(../backimgs/blue.jpg);
+/*background-color:#d0d0d0;*/
+}
+
+img{
+   max-width: 100%;
+}
+
+.btn-arriba{
+
+    width:40px;
+    height:40px;
+    opacity:0.7;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    display:none;
+    text-indent:-9999px;
+    background: url('icon_top.png') no-repeat;
+
+}
+
+
+
+li:hover{
+  font-weight: bold;
+  backgroud-color:#FFF;
+}
+
+
+a:link{
+text-decoration:none;
+}
+
+.letramenu{
+font-size:21px;
+}
+.letranegra{
+font-color: #000;
+}
+.mediano{
+font-size:20px;
+}
+.mediano2{
+font-size:18px;
+}
+.grande{
+font-size:25px;
+}
+.justificado{
+text-align : justify;
+}
+.quitar-float{
+	float:none;
+	}
+.espacio-arriba{
+margin-top: 140px;
+}
+.espacio-empresa{
+	margin-top: 80px;
+}
+
+
+.espacio-gracias{
+
+	margin-top:180px;
+}
+
+
+.espacioarribamapa{
+margin-top: 50px;
+}
+
+
+
+.navbar-xf {
+    background-color: #1D68B2;
+    border-color: #E7E7E7;
+}
+
+
+
+
+
+
+.espacio-formulario{
+margin-top: 30px;
+}
+.espacio-derecha{
+	margin-right: 1em;
+	}
+.espaciocontenido{
+margin-top: 45px;
+}
+.lato{
+font-family: 'Lato', sans-serif;
+}
+.arribaa{
+margin-top: -600px;
+}
+.se-gris{
+	background-color:#06F;
+box-shadow: 0px 0px 7px 0px #000000; 
+	-webkit-box-shadow: 0px 0px 6px 0px #0000;
+  -moz-box-shadow: 0px 0px b7px #0000;
+  filter: shadow(color=#000000, direction=135, strength=2);
+}
+.letrablanca li {
+color:#FFF;
+}
+.letrablancaa a{
+color:#FFF;
+}
+
+.padding-largo{
+padding:5px 10px;
+}
+
+.inline-block{
+float:none;
+display:inline-block;
+margin-right:-4px;
+}
+.no-lista{
+margin: 0px;
+padding: 0px;
+}
+.no-lista li{
+list-style-type: none;
+}
+.vete-arriba{
+vertical-align: top;
+}
+
+.vete-arriba2{
+margin-top: -600px;
+}
+
+
+.retrasoanimacion1{
+	-webkit-animation-delay:1s;
+	-moz-animation-delay:1s;
+animation-delay:1s;
+}
+.retrasoanimacion2{
+	-webkit-animation-delay:1.5s;
+	-moz-animation-delay:1.5s;
+animation-delay:1.5;
+}
+
+/*FORMULARIO DE CONTACTO*/
+
+form {
+    margin:0 auto;
+    width:300px;
+}
+ 
+input, textarea {
+    width:380px;
+    height:40px;
+    background:#d0d0d0;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:15px;
+    color:#000000;
+}
+ 
+textarea {
+    height:150px;
+}
+.back{
+background-image: url(../imgs/fonne11.png);
+background-repeat: repeat;
+}
+
+.imagen{}
+
+.imagen:hover{
+ -moz-box-shadow: 0 0 10px #ccc; 
+ -webkit-box-shadow: 0 0 10px #ccc; 
+ box-shadow: 0 0 10px #ccc; 
+ width: 51%;
+ height: 51%;
+ 
+ -moz-border-radius: 10px 10px 10px 10px;
+	/*Bordes redondeados menu en chrome y Safari*/
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 1px solid transparent; 
+ 
+}
+.letralight{
+	font-weight:400;
+}
+.sombra{
+box-shadow: 0px 0px 7px 0px #000000; 
+-webkit-box-shadow: 0px 0px 6px 0px #0000;
+-moz-box-shadow: 0px 0px 7px #0000;
+filter: shadow(color=#000000, direction=135, strength=2);	
+}
+.fondoblanco{
+background-color:#FFF;
+}
+.pie{
+	position:fixed;
+	bottom:10px;
+	
+	width:100%;
+	height:30px;
+	left:0px;
+	
+	
+	/*
+	background-color:#06F;
+	font-color: white;
+	
+	box-shadow: 0px 0px 7px 0px #000000; 
+	-webkit-box-shadow: 0px 0px 6px 0px #0000;
+  -moz-box-shadow: 0px 0px 7px #0000;
+  filter: shadow(color=#000000, direction=135, strength=2);*/
+	
+}
+
+
+
+
